@@ -1,0 +1,35 @@
+  .login {
+    min-height: 100vh;
+    text-align: center;
+    background: url('../images/login.jpg');
+    left: -312px;
+    position: relative;
+    width: 1653px;
+  }
+
+  .login input {
+    height: 25px;
+    width: 170px;
+    border-radius: 4px;
+    padding-left: 4px;
+    margin-left: 8px;
+  }
+
+  .login button {
+    height: 25px;
+    width: 70px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 4px;
+    background: #be9c5f;
+  }
+
+  .hide-error {
+    display: none;
+  }
+
+  .invalid-credentials {
+    color: #e62727;
+    font-style: italic;
+    font-weight: bold;
+  }

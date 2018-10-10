@@ -1,0 +1,58 @@
+  .search {
+    min-height: 100vh;
+    text-align: center;
+    background: url('../images/space.jpg');
+  }
+
+  .search-box {
+    border-radius: 4px;
+    height: 24px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 6px;
+  }
+
+  .logout {
+    color: #fff;
+    position: absolute;
+    right: 0;
+    margin: 6px;
+  }
+  
+  .planet{
+    display: inline-block;
+    border-radius:50%;
+    box-shadow: 0 0 60px -20px rgba(255, 189, 3, 0.72), -14px -15px 40px -10px rgba(255, 238, 191, 0.23);
+    margin: 10px;
+  }
+
+  .planet .mask{
+    box-shadow: inset -10px -10px 40px #251303, inset 10px 10px 30px -10px rgba(255, 204, 159, 0.6);
+    border-radius: 50%;
+  }
+
+  .planet .background{
+    background: url('../images/mars.jpg') repeat-x;
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .planet .clouds{
+    background: url('../images/clouds.png') repeat-x;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.4;
+  }
+  
+  .planet .wrap{
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .planet-label {
+    color: #fff;
+    font-size: 18px;
+    z-index: 4;
+    opacity: 0.7;
+    padding-top: 26%;
+  }
